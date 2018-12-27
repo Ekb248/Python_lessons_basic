@@ -29,7 +29,9 @@ for i in vNumStr:
 
 vX1 = input("Введите переменную X1: ")
 vX2 = input("Введите переменную X2: ")
-vX1,vX2 = vX2,vX1
+vTemp = vX1
+vX1 = vX2
+vX2 = vTemp
 print("X1 = ", vX1)
 print("X2 = ", vX2)
 
